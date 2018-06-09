@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> Services </title>
+<style> 
+.box{
+max-width:70%
+}
+h2{
+color:teal
+}
+
+</style>
+</head>
+
+<body>
+</br>
+<marquee>  <h2> Select the type of service you want </h2> </marquee>
+<fieldset class='box'>
+<form action='/cgi-bin/cloud/services.py' method='POST'>
+<center> <label style='text-align:center'> Select here </label> </center>
+</br> </br>
+Private Cloud <input type='radio' name='service' value='Private' > </br> </br>
+Public Cloud <input type='radio' name='service' value='Public'  > </br> </br>
+
+<input type='submit' value='Access it' >
+</form>
+</fieldset>
+
+
+</body>
+</html>
